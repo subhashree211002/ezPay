@@ -43,31 +43,28 @@ Ezpay is a comprehensive digital payment solution that allows users to securely 
 ---
 
 ## Installation
-
-### Backend Setup (Spring Boot)
-
 1. **Clone the repository**:
    ```bash
-   git clone http://hcltechgitlab1.career-shaper.com/Chandrasekhar_Baratam/ezpay_backend.git
-   
+   git clone https://github.com/subhashree211002/ezPay.git
    ```
-2. **Navigate to the backend directory**:
+
+### Backend Setup (Spring Boot)
+1. **Navigate to the backend directory**:
    ```bash
-   cd ezpay_backend
-   git checkout Squad-6
+   cd ezpay/ezpay_backend
    ```
-3. **Install the required dependencies**:
+2. **Install the required dependencies**:
    ```bash
    mvn install
    ```
-4. **Configure Oracle SQL Database**:
+3. **Configure Oracle SQL Database**:
    - Update the `application.properties` or `application.yml` file with your **Oracle SQL** credentials.
    ```properties
    spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
    spring.datasource.username=your_username
    spring.datasource.password=your_password
    ```
-5. **Run the backend**:
+4. **Run the backend**:
    ```bash
    mvn spring-boot:run
    ```
@@ -75,15 +72,9 @@ Ezpay is a comprehensive digital payment solution that allows users to securely 
 ---
 
 ### Frontend Setup (React)
-
-1. **Clone the frontend repository**:
+1. **Navigate to the frontend directory**:
    ```bash
-   git clone http://hcltechgitlab1.career-shaper.com/Chandrasekhar_Baratam/ezpay_frontend.git
-   ```
-2. **Navigate to the frontend directory**:
-   ```bash
-   cd ezpay_frontend
-   git checkout Squad-6
+   cd ezpay/ezpay_frontend
    ```
 3. **Install dependencies**:
    ```bash
@@ -93,7 +84,6 @@ Ezpay is a comprehensive digital payment solution that allows users to securely 
    ```bash
    npm start
    ```
-
 ---
 
 ## Configuration
